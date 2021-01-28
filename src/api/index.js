@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// const url = "http://localhost:8000/blogs";
+// const postUrl = "http://localhost:8000/blogs";
 
 export const fetchBlog = async (url, source) => {
   try {
@@ -14,3 +14,4 @@ export const fetchBlog = async (url, source) => {
     return error;
   }
 };
+

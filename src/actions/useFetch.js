@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import * as api from "../api";
 import axios from "axios";
 
-
-/* GET All Blogs Post */ 
+/* GET All Blogs Post */
 export const useFetch = (url) => {
   const [data, setDate] = useState(null);
   const [isPending, setIsPending] = useState(true);

@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const postUrl = "http://localhost:8000/blogs";
 
-export const fetchBlog = async (url, source) => {
+export const fetchBlog = (url, source) => {
   try {
     return axios.get(url, {
       cancelToken: source.token,
